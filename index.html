@@ -2,14 +2,14 @@
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://github.com/AnandMaurya99/ArVJ.github.io/blob/main/js/myjs.js"></script>
     <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-	<!--<script src="js/aframe.min.js"></script>
-	<script src="js/aframe-ar.js"></script>-->
+    <script src="js/aframe.min.js"></script>
+    <script src="js/aframe-ar.js"></script>
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
         <a-marker preset="hiro">
             <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
             <a-entity
-      gltf-model-next="src: url(./diamond.gltf);"
+      gltf-model-next="src: url(../diamond.gltf);"
             ></a-entity>
         </a-marker>
         <a-entity camera></a-entity>
